@@ -18,7 +18,7 @@ namespace laget.Cryptography.Tests
             var encoded = expected.Encode();
             var decoded = encoded.Decode();
 
-            Assert.Equal("amFuZSBkb2U=", encoded));
+            Assert.Equal("amFuZSBkb2U=", encoded);
             Assert.Equal(expected, decoded);
         }
     }
