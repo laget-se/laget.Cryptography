@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3603FCEE-F046-4C7D-A2BC-644FF54E2D19}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4B1A7578-62D5-4B63-AC73-45AE4DC1454D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "laget.Cryptography", "laget.Cryptography\laget.Cryptography.csproj", "{7CFFE4E5-E488-46ED-B853-79554D7E2DDC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "laget.Cryptography.Tests", "laget.Cryptography.Tests\laget.Cryptography.Tests.csproj", "{411C09EE-F1C1-449B-8B5D-708AA2EA179D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CFFE4E5-E488-46ED-B853-79554D7E2DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CFFE4E5-E488-46ED-B853-79554D7E2DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CFFE4E5-E488-46ED-B853-79554D7E2DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CFFE4E5-E488-46ED-B853-79554D7E2DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{411C09EE-F1C1-449B-8B5D-708AA2EA179D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{411C09EE-F1C1-449B-8B5D-708AA2EA179D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{411C09EE-F1C1-449B-8B5D-708AA2EA179D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{411C09EE-F1C1-449B-8B5D-708AA2EA179D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{411C09EE-F1C1-449B-8B5D-708AA2EA179D} = {4B1A7578-62D5-4B63-AC73-45AE4DC1454D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {568152DE-6C6F-4E1D-8987-DED99483D4B4}
+	EndGlobalSection
+EndGlobal
